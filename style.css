@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.player{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 20px;
+}
+.player input{
+    width: 100%;
+    max-height: 3px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    background: rgba(47, 206, 26, 0.507);
+    z-index: 0;
+    appearance: none;
+  
+}
+.player div div {
+    min-width: 100%;
+    min-height: 9px;
+    background: rgb(223, 9, 230);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.player div{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.selected_song{
+    background: #3a3a3a;
+    color: #fff;
+}
+.song{
+    margin: 15px;
+}
+.song_list .song{
+    width: fit-content;
+
+    
+}
+.song_list {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.volume{
+    height: 5px;
+}
